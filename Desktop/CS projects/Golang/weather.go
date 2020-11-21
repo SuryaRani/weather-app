@@ -28,6 +28,7 @@ func HomePage(w http.ResponseWriter, r *http.Request){
 	fmt.Fprintf(w,"Welcome!\n")
 	fmt.Fprintf(w,"It is %s\n",now)
 	fmt.Fprint(w, "What would you like to do\n")
+	//comment
 
 }
 
